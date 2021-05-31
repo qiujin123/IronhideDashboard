@@ -72,6 +72,14 @@
       "oAP" : "\/dev\/content\/svg\/autobotLogo.html",
       "oF" : 0
     },
+    "\/dev\/content\/svg\/classicIronhide.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/svg\/classicIronhide.html",
+      "oF" : 0
+    },
     "\/dev\/content\/svg\/gmcLogo.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -80,20 +88,12 @@
       "oAP" : "\/dev\/content\/svg\/gmcLogo.html",
       "oF" : 0
     },
-    "\/dev\/content\/svg\/ironhideOne.kit" : {
+    "\/dev\/content\/svg\/skinIronhide.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/svg\/ironhideOne.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/svg\/ironhideTwo.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/svg\/ironhideTwo.html",
+      "oAP" : "\/dev\/content\/svg\/skinIronhide.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
