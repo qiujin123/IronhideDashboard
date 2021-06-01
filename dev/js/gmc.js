@@ -30,10 +30,13 @@ gmcTL.from("#g1",{ duration:gmcSpeed, scale:0.1, alpha:0, x:-250, ease: "slow (0
     .from("#m10",{ duration:gmcSpeed, scale:0.1, alpha:0, x:-450, ease: "slow (0.7, 0.7, false)"},"gmc")
     .from("#m11",{ duration:gmcSpeed, scale:0.1, alpha:0, x:-400, ease: "slow (0.7, 0.7, false)"},"gmc")
     .from("#m12",{ duration:gmcSpeed, scale:0.1, alpha:0, x:-350, ease: "slow (0.7, 0.7, false)"},"gmc")
-    
-    .from("#m13",{ duration:gmcSpeed, scale:0.1, alpha:0, x:300, ease: "slow (0.7, 0.7, false)"},"gmc")
+    .from("#m13",{ duration:gmcSpeed, scale:0.1, alpha:0, x:-300, ease: "slow (0.7, 0.7, false)"},"gmc")
+    .from("#m14",{ duration:gmcSpeed, scale:0.1, alpha:0, x:-350, ease: "slow (0.7, 0.7, false)"},"gmc")
+
+
+    .from("#m145",{ duration:gmcSpeed, scale:0.1, alpha:0, x:350, ease: "slow (0.7, 0.7, false)"},"gmc")
+    .from("#m135",{ duration:gmcSpeed, scale:0.1, alpha:0, x:300, ease: "slow (0.7, 0.7, false)"},"gmc")
     .from("#m123",{ duration:gmcSpeed, scale:0.1, alpha:0, x:300, ease: "slow (0.7, 0.7, false)"},"gmc")
-    .from("#m14",{ duration:gmcSpeed, scale:0.1, alpha:0, x:350, ease: "slow (0.7, 0.7, false)"},"gmc")
     .from("#m15",{ duration:gmcSpeed, scale:0.1, alpha:0, x:400, ease: "slow (0.7, 0.7, false)"},"gmc")
     .from("#m16",{ duration:gmcSpeed, scale:0.1, alpha:0, x:450, ease: "slow (0.7, 0.7, false)"},"gmc")
     .from("#m17",{ duration:gmcSpeed, scale:0.1, alpha:0, x:500, ease: "slow (0.7, 0.7, false)"},"gmc")
