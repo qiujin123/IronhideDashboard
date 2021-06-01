@@ -2,7 +2,7 @@ import { gsap } from "gsap";
 
 export let gmcTL = gsap.timeline();
 
-let gmcSpeed = 1;
+let gmcSpeed = 0.7;
 
 
 gmcTL.from("#g1",{ duration:gmcSpeed, scale:0.1, alpha:0, x:-250, ease: "slow (0.7, 0.7, false)"},"gmc")
@@ -34,9 +34,8 @@ gmcTL.from("#g1",{ duration:gmcSpeed, scale:0.1, alpha:0, x:-250, ease: "slow (0
     .from("#m14",{ duration:gmcSpeed, scale:0.1, alpha:0, x:-350, ease: "slow (0.7, 0.7, false)"},"gmc")
 
 
-    .from("#m145",{ duration:gmcSpeed, scale:0.1, alpha:0, x:350, ease: "slow (0.7, 0.7, false)"},"gmc")
     .from("#m135",{ duration:gmcSpeed, scale:0.1, alpha:0, x:300, ease: "slow (0.7, 0.7, false)"},"gmc")
-    .from("#m123",{ duration:gmcSpeed, scale:0.1, alpha:0, x:300, ease: "slow (0.7, 0.7, false)"},"gmc")
+    .from("#m123",{ duration:gmcSpeed, scale:0.1, alpha:0, x:350, ease: "slow (0.7, 0.7, false)"},"gmc")
     .from("#m15",{ duration:gmcSpeed, scale:0.1, alpha:0, x:400, ease: "slow (0.7, 0.7, false)"},"gmc")
     .from("#m16",{ duration:gmcSpeed, scale:0.1, alpha:0, x:450, ease: "slow (0.7, 0.7, false)"},"gmc")
     .from("#m17",{ duration:gmcSpeed, scale:0.1, alpha:0, x:500, ease: "slow (0.7, 0.7, false)"},"gmc")
@@ -50,9 +49,9 @@ gmcTL.from("#g1",{ duration:gmcSpeed, scale:0.1, alpha:0, x:-250, ease: "slow (0
     .from("#m25",{ duration:gmcSpeed, scale:0.1, alpha:0, x:300, ease: "slow (0.7, 0.7, false)"},"gmc")
 
     .from("#c1",{ duration:gmcSpeed, scale:0.1, alpha:0, x:400, ease: "slow (0.7, 0.7, false)"},"gmc")
-    .from("#c2",{ duration:gmcSpeed, scale:0.1, alpha:0, x:300, ease: "slow (0.7, 0.7, false)"},"gmc")
-    .from("#c3",{ duration:gmcSpeed, scale:0.1, alpha:0, x:450, ease: "slow (0.7, 0.7, false)"},"gmc")
-    .from("#c4",{ duration:gmcSpeed, scale:0.1, alpha:0, x:500, ease: "slow (0.7, 0.7, false)"},"gmc")
+    .from("#c2",{ duration:gmcSpeed, scale:0.1, alpha:0, x:450, ease: "slow (0.7, 0.7, false)"},"gmc")
+    .from("#c3",{ duration:gmcSpeed, scale:0.1, alpha:0, x:500, ease: "slow (0.7, 0.7, false)"},"gmc")
+    .from("#c4",{ duration:gmcSpeed, scale:0.1, alpha:0, x:550, ease: "slow (0.7, 0.7, false)"},"gmc")
     .from("#c5",{ duration:gmcSpeed, scale:0.1, alpha:0, x:550, ease: "slow (0.7, 0.7, false)"},"gmc")
     .from("#c6",{ duration:gmcSpeed, scale:0.1, alpha:0, x:500, ease: "slow (0.7, 0.7, false)"},"gmc")
     .from("#c7",{ duration:gmcSpeed, scale:0.1, alpha:0, x:450, ease: "slow (0.7, 0.7, false)"},"gmc")

@@ -413,7 +413,6 @@ textarea {
     Footer
 ============= */
 #svg-container {
-  background-color: black;
   display: grid;
   grid-template-columns: auto 80% auto;
   grid-template-areas: ". svg-container .";
