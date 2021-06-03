@@ -441,3 +441,7 @@ textarea {
 #svg-container > div svg {
   width: 100%;
 }
+
+#rightHandleUpView, #leftHandleUpView {
+  visibility: hidden;
+}
