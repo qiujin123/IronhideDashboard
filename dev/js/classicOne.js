@@ -1,13 +1,7 @@
 import { gsap } from "gsap";
-import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
-
-gsap.registerPlugin(MorphSVGPlugin);
 
 
 export let classicOneTL = gsap.timeline();
-
-// gsap.set("#leftHandleUpView",{transformOrigin:"center"});
-// gsap.set("#rightHandleUpView",{transformOrigin:"center"});
 
 
 classicOneTL.to("#autobotFull",{ duration:0.1, alpha: 0, delay:1}) 
@@ -27,5 +21,5 @@ classicOneTL.to("#autobotFull",{ duration:0.1, alpha: 0, delay:1})
             .to("#auto13", {duration:1, alpha:0, y:50},"transform")
             .to("#auto14", {duration:1, alpha:0, y:50},"transform")
             .to("#auto16", {duration:1, morphSVG:"#doorTransform", fill:"#5E5B64", y:-179, x:-357},"transform")
-            .to("#auto11", {duration:1, morphSVG:"#leftHandleUpView", x:-355.5, y:-176},"transform")
-            .to("#auto9", {duration:1, morphSVG:"#rightHandleUpView", x:-357.5, y:-176},"transform")
+            .to("#auto11", {duration:1, morphSVG:"#leftHandleUpView", alpha:0.5, x:-355.5, y:-176},"transform")
+            .to("#auto9", {duration:1, morphSVG:"#rightHandleUpView", alpha:0.5, x:-357.5, y:-176},"transform")
