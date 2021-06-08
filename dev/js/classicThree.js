@@ -12,10 +12,10 @@ gsap.set("#musicButton",{transformOrigin:"center"});
 gsap.set("#navigationButton",{transformOrigin:"center"});
 
 
-classicThreeTL.from("#energonBar", {duration:1, alpha: 0},"fuel")
-              .from("#fuelBar", {duration:1, alpha: 0},"fuel")
-              .from("#FUEL", {duration:1, alpha: 0},"fuel")
-              .from("#ENERGON", {duration:1, alpha: 0},"fuel")
+classicThreeTL.from("#energonBar", {duration:0.7, alpha: 0},"fuel")
+              .from("#fuelBar", {duration:0.7, alpha: 0},"fuel")
+              .from("#FUEL", {duration:0.7, alpha: 0},"fuel")
+              .from("#ENERGON", {duration:0.7, alpha: 0},"fuel")
               .to("#leftFrontDoor", {duration:1, x:-80},"doorOpen")
               .to("#rightFrontDoor", {duration:1, x:85},"doorOpen")
               .to("#leftGuardDoorUp", {duration:1, y:-50},"doorOpen")
