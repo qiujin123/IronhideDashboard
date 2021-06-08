@@ -6,6 +6,7 @@ import { autobotTL } from "./autobot"
 import { classicOneTL } from "./classicOne"
 import { classicTwoTL } from "./classicTwo"
 import { classicThreeTL } from "./classicThree"
+import { classicFourTL } from "./classicFour"
 
 gsap.registerPlugin(GSDevTools);
 
@@ -20,7 +21,8 @@ mainTL.add(gmcTL)
       .add(autobotTL)
       .add(classicOneTL)
       .add(classicTwoTL)
-      .add(classicThreeTL);
+      .add(classicThreeTL)
+      .add(classicFourTL);
         
 
         mainTL.play();
