@@ -5,6 +5,7 @@ import { gmcTL } from "./gmc"
 import { autobotTL } from "./autobot"
 import { classicOneTL } from "./classicOne"
 import { classicTwoTL } from "./classicTwo"
+import { classicThreeTL } from "./classicThree"
 
 gsap.registerPlugin(GSDevTools);
 
@@ -18,7 +19,8 @@ let mainTL = gsap.timeline();
 mainTL.add(gmcTL)
       .add(autobotTL)
       .add(classicOneTL)
-      .add(classicTwoTL);
+      .add(classicTwoTL)
+      .add(classicThreeTL);
         
 
         mainTL.play();

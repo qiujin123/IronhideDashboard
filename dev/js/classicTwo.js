@@ -9,9 +9,15 @@ gsap.set("#rightHandleDownBase",{transformOrigin:"center"});
 gsap.set("#leftHandleDownBase",{transformOrigin:"center"});
 gsap.set("#rightHandleDownView",{transformOrigin:"center"});
 gsap.set("#leftHandleDownView",{transformOrigin:"center"});
-gsap.set("#rightHandleUpView",{transformOrigin:"center center"});
-gsap.set("#leftHandleUpView",{transformOrigin:"center center"});
-gsap.set("#midMouth",{transformOrigin:"center center"});
+gsap.set("#rightHandleUpView",{transformOrigin:"center"});
+gsap.set("#leftHandleUpView",{transformOrigin:"center"});
+gsap.set("#midMouth",{transformOrigin:"center"});
+gsap.set("#rightGuardCover",{transformOrigin:"center"});
+gsap.set("#leftGuardCover",{transformOrigin:"center"});
+gsap.set("#leftGuardDoorDown",{transformOrigin:"center"});
+gsap.set("#leftGuardDoorUp",{transformOrigin:"center"});
+gsap.set("#rightGuardDoorDown",{transformOrigin:"center"});
+gsap.set("#rightGuardDoorUp",{transformOrigin:"center"});
 
 classicTwoTL.to("#auto16", {duration:1, alpha: 0},"fadeOut")
             .to("#auto11", {duration:1, alpha: 0},"fadeOut")
@@ -31,3 +37,9 @@ classicTwoTL.to("#auto16", {duration:1, alpha: 0},"fadeOut")
             .from("#leftHandleUpView",{ duration:1, scale:0.5, y:-15.5, alpha:0},"guardView") 
             .from("#rightHandleUpView",{ duration:1, scale:0.5, y:-15.5, alpha:0},"guardView") 
             .from("#midMouth",{ duration:1, scale:0.5, y:-15.5, alpha:0},"guardView") 
+            .from("#rightGuardCover",{ duration:1, scale:0.5, alpha:0},"guardView") 
+            .from("#leftGuardCover",{ duration:1, scale:0.5, alpha:0},"guardView")
+            .from("#leftGuardDoorDown",{ duration:1, scale:0},"guardView")
+            .from("#leftGuardDoorUp",{ duration:1, scale:0},"guardView")
+            .from("#rightGuardDoorDown",{ duration:1, scale:0},"guardView")
+            .from("#rightGuardDoorUp",{ duration:1, scale:0},"guardView")
