@@ -153,6 +153,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/js\/classicReverse.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/classicReverse-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev\/js\/classicThree.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -194,6 +205,17 @@
       "oA" : 0,
       "oAP" : "\/deploy\/js\/scripts-min.js",
       "oF" : 3,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/skinOne.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/skinOne-min.js",
+      "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
@@ -883,7 +905,7 @@
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,
-    "esLintEnvironmentsMask" : 1,
+    "esLintEnvironmentsMask" : 8193,
     "esLintRules" : {
       "accessor-pairs" : {
         "active" : 0,
@@ -1197,7 +1219,7 @@
         "optionString" : "{'allowParens': true}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {

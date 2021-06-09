@@ -369,6 +369,10 @@ ul li {
   display: none;
 }
 
+#activateButton {
+  cursor: pointer;
+}
+
 /* =============
     Typography
 ============= */

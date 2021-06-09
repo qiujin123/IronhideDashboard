@@ -50,3 +50,4 @@ classicFourTL.to("#navigationButton", {duration:0.5, scale:0.7},"highlight")
              .from("#rifle", {duration:0.2, alpha:0})
              .to("#rifle", {duration:0.2, alpha:0, x:0, delay:1})
              .from("#sword", {duration:0.2, alpha:0})
+            

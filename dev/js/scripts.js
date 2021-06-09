@@ -1,12 +1,14 @@
 import { gsap } from "gsap";
 import { GSDevTools } from "gsap/GSDevTools";
-
-import { gmcTL } from "./gmc"
-import { autobotTL } from "./autobot"
-import { classicOneTL } from "./classicOne"
-import { classicTwoTL } from "./classicTwo"
-import { classicThreeTL } from "./classicThree"
-import { classicFourTL } from "./classicFour"
+// import $ from "jquery";
+import { gmcTL } from "./gmc";
+import { autobotTL } from "./autobot";
+import { classicOneTL } from "./classicOne";
+import { classicTwoTL } from "./classicTwo";
+import { classicThreeTL } from "./classicThree";
+import { classicFourTL } from "./classicFour";
+import { classicReverseTL } from "./classicReverse";
+import { skinOneTL } from "./skinOne";
 
 gsap.registerPlugin(GSDevTools);
 
@@ -22,9 +24,17 @@ mainTL.add(gmcTL)
       .add(classicOneTL)
       .add(classicTwoTL)
       .add(classicThreeTL)
-      .add(classicFourTL);
-        
+      .add(classicFourTL)
+      .add(classicReverseTL)
+      .add(skinOneTL);
+    
+      
 
-        mainTL.play();
+      mainTL.play();
 
 GSDevTools.create();
+
+// $("#activateButton").on("click", function(){
+//   console.log("click is working");
+//   classicReverseTL.play();
+// });
