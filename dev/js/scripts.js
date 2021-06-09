@@ -9,6 +9,7 @@ import { classicThreeTL } from "./classicThree";
 import { classicFourTL } from "./classicFour";
 import { classicReverseTL } from "./classicReverse";
 import { skinOneTL } from "./skinOne";
+import { skinTwoTL } from "./skinTwo";
 
 gsap.registerPlugin(GSDevTools);
 
@@ -26,7 +27,8 @@ mainTL.add(gmcTL)
       .add(classicThreeTL)
       .add(classicFourTL)
       .add(classicReverseTL)
-      .add(skinOneTL);
+      .add(skinOneTL)
+      .add(skinTwoTL);
     
       
 

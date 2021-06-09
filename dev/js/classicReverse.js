@@ -3,19 +3,21 @@ import { gsap } from "gsap";
 
 export let classicReverseTL = gsap.timeline();
 
+gsap.set("#weaponSection",{transformOrigin:"center "});
+
 
 classicReverseTL.to("#ACTIVATE", {duration:0.5, fill:"#D8D8D8", delay:1})
                 .to("#sword", {duration:1, fill:"#CF4037"})
-                .to("#homeButton", {duration:0.5, scale:1},"buttonReverse")
-                .to("#settingButton", {duration:0.5, scale:1},"buttonReverse")  
-                .to("#navigationButton", {duration:0.5, scale:1},"buttonReverse")  
-                .to("#musicButton", {duration:0.5, scale:1},"buttonReverse")  
-                .to("#cameraButton", {duration:0.5, scale:1},"buttonReverse")  
-                .to("#phoneButton", {duration:0.5, scale:1},"buttonReverse")  
-                .to("#phoneIcon", {duration:0.5, scale:1, fill:"#000"},"buttonReverse")  
-                .to("#homeIcon", {duration:0.5, scale:1, fill:"#000"},"buttonReverse")  
-                .to("#homeSection", {duration:0.5, alpha:0},"buttonReverse") 
-                .to("#phoneSection", {duration:0.5, alpha:0},"buttonReverse") 
+                .to("#homeButton", {duration:0.4, scale:1},"buttonReverse")
+                .to("#settingButton", {duration:0.4, scale:1},"buttonReverse")  
+                .to("#navigationButton", {duration:0.4, scale:1},"buttonReverse")  
+                .to("#musicButton", {duration:0.4, scale:1},"buttonReverse")  
+                .to("#cameraButton", {duration:0.4, scale:1},"buttonReverse")  
+                .to("#phoneButton", {duration:0.4, scale:1},"buttonReverse")  
+                .to("#phoneIcon", {duration:0.4, scale:1, fill:"#000"},"buttonReverse")  
+                .to("#homeIcon", {duration:0.4, scale:1, fill:"#000"},"buttonReverse")  
+                .to("#homeSection", {duration:0.4, alpha:0},"buttonReverse") 
+                .to("#phoneSection", {duration:0.4, alpha:0},"buttonReverse") 
                 .to("#mphMeter", {duration:0.5, alpha:0},"gaugeReverse") 
                 .to("#rpmMeter", {duration:0.5, alpha:0},"gaugeReverse") 
                 .to("#mphAllView", {duration:0.5, alpha:0},"gaugeReverse") 
@@ -45,5 +47,12 @@ classicReverseTL.to("#ACTIVATE", {duration:0.5, fill:"#D8D8D8", delay:1})
                  .to("#leftGuardDoorDown", {duration:1, y:32},"doorReverseClose")
                 .to("#rightGuardDoorUp", {duration:1, y:-22},"doorReverseClose")
                 .to("#rightGuardDoorDown", {duration:1, y:32},"doorReverseClose")
+                .to("#weaponSection",{ duration:1, y:380, scale:0, alpha:0 },"ReverseOut")
+                .to("#rightHandleDownBase",{ duration:1, y:380, scale:0, alpha:0 },"ReverseOut")
+                .to("#leftHandleDownBase",{ duration:1, y:380, scale:0, alpha:0 },"ReverseOut")
+                .to("#rightHandleDownView",{ duration:1, y:380, scale:0, alpha:0 },"ReverseOut")
+                .to("#leftHandleDownView",{ duration:1, y:380, scale:0, alpha:0 },"ReverseOut")
+                .to("#leftHandleUpView",{ duration:1, y:380, scale:0, alpha:0 },"ReverseOut")
+                .to("#rightHandleUpView",{ duration:1, y:380, scale:0, alpha:0 },"ReverseOut")
                 
          
