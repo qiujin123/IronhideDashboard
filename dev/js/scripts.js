@@ -1,5 +1,5 @@
 import { gsap } from "gsap";
-// import { GSDevTools } from "gsap/GSDevTools";
+import { GSDevTools } from "gsap/GSDevTools";
 // import $ from "jquery";
 import { gmcTL } from "./gmc";
 import { autobotTL } from "./autobot";
@@ -11,8 +11,10 @@ import { classicReverseTL } from "./classicReverse";
 import { skinOneTL } from "./skinOne";
 import { skinTwoTL } from "./skinTwo";
 import { skinThreeTL } from "./skinThree";
+import { speedTL } from "./speed";
 
-// gsap.registerPlugin(GSDevTools);
+
+gsap.registerPlugin(GSDevTools);
 
 import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
 
@@ -30,13 +32,14 @@ mainTL.add(gmcTL)
       .add(classicReverseTL)
       .add(skinOneTL)
       .add(skinTwoTL)
-      .add(skinThreeTL);
+      .add(skinThreeTL)
+      .add(speedTL);
     
       
 
       mainTL.play();
 
-// GSDevTools.create();
+GSDevTools.create();
 
 // $("#activateButton").on("click", function(){
 //   console.log("click is working");

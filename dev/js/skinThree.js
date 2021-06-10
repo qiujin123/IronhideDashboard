@@ -57,4 +57,5 @@ skinThreeTL.to("#skinHomeButton", {duration:0.5, scale:1.3 },"skinOutButton")
            .from("#skinDateTab", {duration:0.2, alpha:0, scale:0},"in7")
            .from("#skinTime", {duration:0.5, alpha:0, scale:0},"in8")
            .from("#primeCall", {duration:0.5, alpha:0, scale:0},"in8")
+        //    .from("#speed", {duration:0.5, alpha:0})
            

@@ -18,11 +18,43 @@
 	>div {
 		display: flex;
 		align-items: center;
-		
 		grid-area: svg-container;
 
-		svg{
+		#svg-content{
+			position: relative;
 			width: 100%;
+
+			svg{
+				width: 100%;
+			}
+
+			#speed{
+				position: absolute;
+				top:30%;
+				left:54%;
+
+				@include sm{
+					top:30.5%;
+					left:53.7%;
+				}
+
+
+				@include md{
+					top:30.5%;
+					left:53.7%;
+				}
+
+				@include lg{
+					top:30%;
+					left:53.7%;
+				}
+				
+				@include xl{
+					top:30%;
+					left:53.7%;
+				}
+				
+			}
 		}
 	}
 }

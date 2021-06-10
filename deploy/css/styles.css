@@ -442,6 +442,67 @@ textarea {
   align-items: center;
   grid-area: svg-container;
 }
-#svg-container > div svg {
+#svg-container > div #svg-content {
+  position: relative;
   width: 100%;
+}
+#svg-container > div #svg-content svg {
+  width: 100%;
+}
+#svg-container > div #svg-content #speed {
+  position: absolute;
+  top: 30%;
+  left: 54%;
+}
+@media (min-width: 576px) {
+  #svg-container > div #svg-content #speed {
+    top: 30.5%;
+    left: 53.7%;
+  }
+}
+@media (min-width: 768px) {
+  #svg-container > div #svg-content #speed {
+    top: 30.5%;
+    left: 53.7%;
+  }
+}
+@media (min-width: 992px) {
+  #svg-container > div #svg-content #speed {
+    top: 30%;
+    left: 53.7%;
+  }
+}
+@media (min-width: 1200px) {
+  #svg-container > div #svg-content #speed {
+    top: 30%;
+    left: 53.7%;
+  }
+}
+
+#speedTag {
+  top: 100%;
+  color: yellow;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+@media (min-width: 576px) {
+  #speedTag {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  #speedTag {
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) {
+  #speedTag {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  #speedTag {
+    font-size: 40px;
+  }
 }
