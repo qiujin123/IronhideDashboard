@@ -2,6 +2,11 @@ import { gsap } from "gsap";
 
 export let skinTwoTL = gsap.timeline();
 
+gsap.set("#skinWRpmBase",{transformOrigin:"center bottom"});
+gsap.set("#skinWMphBase",{transformOrigin:"center bottom"});
+gsap.set("#skinWRpmMid",{transformOrigin:"center bottom"});
+gsap.set("#skinWMphMid",{transformOrigin:"center bottom"});
+
 
 skinTwoTL.from("#skinEnergonBase", {duration:0.5, alpha:0 },"skinBaseGauge")
          .from("#skinFuelBase", {duration:0.5, alpha:0 },"skinBaseGauge")
@@ -11,12 +16,13 @@ skinTwoTL.from("#skinEnergonBase", {duration:0.5, alpha:0 },"skinBaseGauge")
          .from("#skinRpmView", {duration:0.5, alpha:0 },"skinViewGauge")
          .from("#skinFuelView", {duration:0.5, alpha:0 },"skinViewGauge")
          .from("#skinEnergonView", {duration:0.5, alpha:0 },"skinViewGauge")
-         .from("#skinWRpmBase", {duration:0.5, alpha:0 },"skinViewGauge")
-         .from("#skinWMphBase", {duration:0.5, alpha:0 },"skinViewGauge")
-         .from("#skinWRpmMid", {duration:0.5, alpha:0 },"skinViewGauge2")
-         .from("#skinWMphMid", {duration:0.5, alpha:0 },"skinViewGauge2")
+         .from("#skinWRpmBase", {duration:0.5, alpha:0, scaleY:0 },"skinViewGauge")
+         .from("#skinWMphBase", {duration:0.5, alpha:0, scaleY:0 },"skinViewGauge")
+         .from("#skinWRpmMid", {duration:0.5, alpha:0, scaleY:0  },"skinViewGauge2")
+         .from("#skinWMphMid", {duration:0.5, alpha:0, scaleY:0  },"skinViewGauge2")
          .from("#skinRpmInfo", {duration:0.5, alpha:0 },"skinViewGauge3")
          .from("#skinMphInfo", {duration:0.5, alpha:0 },"skinViewGauge3")
+         .from("#speed", {duration:0.5, alpha:0},"skinViewGauge3")
          .from("#fuelTab", {duration:0.1, alpha:0 },"skinRM")
          .from("#energonTab", {duration:0.1, alpha:0 },"skinRM")
          .from("#skinMph1", {duration:0.1, alpha:0 },"skinRM")

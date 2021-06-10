@@ -57,5 +57,15 @@ skinThreeTL.to("#skinHomeButton", {duration:0.5, scale:1.3 },"skinOutButton")
            .from("#skinDateTab", {duration:0.2, alpha:0, scale:0},"in7")
            .from("#skinTime", {duration:0.5, alpha:0, scale:0},"in8")
            .from("#primeCall", {duration:0.5, alpha:0, scale:0},"in8")
-        //    .from("#speed", {duration:0.5, alpha:0})
+           .to("#skinE1", {duration:0.5, fill:"#DCA82D" },"show")
+           .to("#skinF1", {duration:0.5, fill:"#CF4037" },"show")
+           .to("#skinE2", {duration:0.5, fill:"#DCA82D" },"show")
+           .to("#skinF2", {duration:0.5, fill:"#CF4037" },"show")
+           .to("#skinE3", {duration:0.5, fill:"#DCA82D" },"show")
+           .to("#skinF3", {duration:0.5, fill:"#CF4037" },"show")
+           .to("#skinF4", {duration:0.5, fill:"#CF4037" },"show")
+           .to("#skinF5", {duration:0.5, fill:"#CF4037" },"show")
+           .to("#skinF6", {duration:0.5, fill:"#CF4037" },"show")
+           
+           
            
