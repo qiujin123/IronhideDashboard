@@ -3,7 +3,8 @@ export let classicReverseTL = gsap.timeline();
 
 gsap.set("#weaponSection",{transformOrigin:"center "});
 
-classicReverseTL.to("#ACTIVATE", {duration:0.5, fill:"#D8D8D8", delay:1})
+classicReverseTL.to("#ACTIVATE", {duration:0.2, fill:"#D8D8D8"})
+                .to("#actView", {duration:0.2, fill:"#D92121", repeat:2})
                 .to("#sword", {duration:1, fill:"#CF4037"})
                 .to("#homeButton", {duration:0.4, scale:1},"buttonReverse")
                 .to("#settingButton", {duration:0.4, scale:1},"buttonReverse")  

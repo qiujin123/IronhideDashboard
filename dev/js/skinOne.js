@@ -8,6 +8,7 @@ skinOneTL.to("#leftGuard", {duration:0.5, morphSVG:"#skinleftGuard", y:97, x:-30
          .to("#actBase", {duration:0.5, morphSVG:"#skinActivateBase", x:-70, y:123},"skinChange")
          .to("#actView", {duration:0.5, morphSVG:"#skinActivateView", x:-65, y:116},"skinChange")
          .to("#ACTIVATE", {duration:0.5, x:5, y:-5, fill:"#000"},"skinChange")
+         .to("#actView", {duration:0.5, fill:"#8C9EB8"},"skinChange")
          .from("#skinRightGuard", {duration:0.1, alpha: 0},"switch1")
          .from("#skinleftGuard", {duration:0.1, alpha: 0},"switch1")
          .from("#skinRightBase", {duration:0.1, alpha:0},"switch1")

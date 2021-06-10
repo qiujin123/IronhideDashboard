@@ -373,6 +373,13 @@ ul li {
   cursor: pointer;
 }
 
+#activateButton:hover #ACTIVATE {
+  fill: #D1CFCD;
+}
+#activateButton:hover #actView {
+  fill: #D92121;
+}
+
 /* =============
     Typography
 ============= */

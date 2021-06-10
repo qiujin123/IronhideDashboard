@@ -21,4 +21,18 @@ ul{
 
 #activateButton{
     cursor: pointer;
+    
 }
+
+#activateButton:hover{
+    #ACTIVATE{
+        fill: #D1CFCD;
+    }
+
+    #actView{
+        fill: #D92121;
+    }
+  }
+    
+
+

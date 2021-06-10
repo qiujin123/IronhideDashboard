@@ -1,6 +1,6 @@
 import { gsap } from "gsap";
 // import { GSDevTools } from "gsap/GSDevTools";
-// import $ from "jquery";
+import $ from "jquery";
 import { gmcTL } from "./gmc";
 import { autobotTL } from "./autobot";
 import { classicOneTL } from "./classicOne";
@@ -21,23 +21,27 @@ gsap.registerPlugin(MorphSVGPlugin);
 
 let mainTL = gsap.timeline();
 
+
+
 mainTL.add(gmcTL)
       .add(autobotTL)
       .add(classicOneTL)
       .add(classicTwoTL)
       .add(classicThreeTL)
       .add(classicFourTL)
-      .add(classicReverseTL)
+         
+let mainTL2 = gsap.timeline({paused:true});
+      mainTL2.add(classicReverseTL)
       .add(skinOneTL)
       .add(skinTwoTL)
       .add(skinThreeTL)
       .add(speedTL);
-    
-      mainTL.play();
+
+$("#activateButton").on("click",function(){
+      console.log("click");
+      mainTL2.play();
+})
+
+
 
 // GSDevTools.create();
-
-// $("#activateButton").on("click", function(){
-//   console.log("click is working");
-//   classicReverseTL.play();
-// });
