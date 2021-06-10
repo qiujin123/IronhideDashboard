@@ -417,6 +417,7 @@ textarea {
     Footer
 ============= */
 #svg-container {
+  background-color: black;
   display: grid;
   grid-template-columns: auto 80% auto;
   grid-template-areas: ". svg-container .";
@@ -434,7 +435,7 @@ textarea {
 }
 @media (min-width: 1200px) {
   #svg-container {
-    grid-template-columns: auto 1200px auto;
+    grid-template-columns: auto 50% auto;
   }
 }
 #svg-container > div {
@@ -503,6 +504,6 @@ textarea {
 }
 @media (min-width: 1200px) {
   #speedTag {
-    font-size: 40px;
+    font-size: 25px;
   }
 }
