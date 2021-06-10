@@ -1,10 +1,7 @@
 import { gsap } from "gsap";
-
-
 export let classicReverseTL = gsap.timeline();
 
 gsap.set("#weaponSection",{transformOrigin:"center "});
-
 
 classicReverseTL.to("#ACTIVATE", {duration:0.5, fill:"#D8D8D8", delay:1})
                 .to("#sword", {duration:1, fill:"#CF4037"})

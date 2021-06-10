@@ -1,7 +1,5 @@
 import { gsap } from "gsap";
-
 export let skinThreeTL = gsap.timeline();
-
 
 gsap.set("#skinHomeButton",{transformOrigin:"center"});
 gsap.set("#skinPhoneButton",{transformOrigin:"center"});
@@ -15,7 +13,6 @@ gsap.set("#signalView",{transformOrigin:"center"});
 gsap.set("#skinPrimeView",{transformOrigin:"center"});
 gsap.set("#skinWeatherView",{transformOrigin:"center"});
 gsap.set("#skinTimeView",{transformOrigin:"center"});
-
 gsap.set("#skinHomeTab",{transformOrigin:"center"});
 gsap.set("#skinCTab",{transformOrigin:"center"});
 gsap.set("#skinTimeView",{transformOrigin:"center"});

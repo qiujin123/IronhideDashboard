@@ -18,14 +18,10 @@ speedTL.to("#skinMph1",{ duration: 0.3, fill:"#D34F47", onStart: startTimer})
 	   .to("#skinMph6",{ duration: 0.3, fill:"#942A24"})
 	   .to("#rpmZero",{ duration: 0.3, alpha:0})
 	   
-	   
-	
-
 var counterSpeed = 30;
 var topSpeed = 90;
 var speedNumber = 0;
 var myVar;
-
 
 function startTimer(){
 

@@ -1,12 +1,10 @@
 import { gsap } from "gsap";
-
 export let skinTwoTL = gsap.timeline();
 
 gsap.set("#skinWRpmBase",{transformOrigin:"center bottom"});
 gsap.set("#skinWMphBase",{transformOrigin:"center bottom"});
 gsap.set("#skinWRpmMid",{transformOrigin:"center bottom"});
 gsap.set("#skinWMphMid",{transformOrigin:"center bottom"});
-
 
 skinTwoTL.from("#skinEnergonBase", {duration:0.5, alpha:0 },"skinBaseGauge")
          .from("#skinFuelBase", {duration:0.5, alpha:0 },"skinBaseGauge")

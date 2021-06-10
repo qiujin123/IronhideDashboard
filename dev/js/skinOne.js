@@ -1,7 +1,5 @@
 import { gsap } from "gsap";
-
 export let skinOneTL = gsap.timeline();
-
 
 skinOneTL.to("#leftGuard", {duration:0.5, morphSVG:"#skinleftGuard", y:97, x:-307},"skinChange")
          .to("#rightGuard", {duration:0.5, morphSVG:"#skinRightGuard", y:-596, x:487},"skinChange")

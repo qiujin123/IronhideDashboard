@@ -1,6 +1,4 @@
 import { gsap } from "gsap";
-
-
 export let classicTwoTL = gsap.timeline();
 
 gsap.set("#rightGuard",{transformOrigin:"center top"});

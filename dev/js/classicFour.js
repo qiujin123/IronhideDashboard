@@ -1,6 +1,4 @@
 import { gsap } from "gsap";
-
-
 export let classicFourTL = gsap.timeline();
 
 gsap.set("#weatherBase",{transformOrigin:"center bottom"});
@@ -14,7 +12,6 @@ gsap.set("#jazzBase",{transformOrigin:"center bottom"});
 gsap.set("#bumblebeeBase",{transformOrigin:"center bottom"});
 gsap.set("#primeBase",{transformOrigin:"center bottom"});
 gsap.set("#sunIcon",{transformOrigin:"center"});
-
 
 classicFourTL.to("#navigationButton", {duration:0.5, scale:0.7},"highlight")
              .to("#phoneButton", {duration:0.5, scale:1.3},"highlight")
@@ -34,7 +31,6 @@ classicFourTL.to("#navigationButton", {duration:0.5, scale:0.7},"highlight")
              .from("#jazzBase", {duration:0.5, alpha:0, scaleY:0},"highlight")
              .from("#bumblebeeBase", {duration:0.5, alpha:0, scaleY:0},"highlight")
              .from("#primeBase", {duration:0.5, alpha:0, scaleY:0},"highlight")
-
              .from("#cliffjumperAllView", {duration:1, alpha:0},"display")
              .from("#prowlAllView", {duration:1, alpha:0},"display")
              .from("#ratchetAllView", {duration:1, alpha:0},"display")

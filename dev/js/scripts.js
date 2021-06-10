@@ -13,13 +13,11 @@ import { skinTwoTL } from "./skinTwo";
 import { skinThreeTL } from "./skinThree";
 import { speedTL } from "./speed";
 
-
 // gsap.registerPlugin(GSDevTools);
 
 import { MorphSVGPlugin } from "gsap/MorphSVGPlugin";
 
 gsap.registerPlugin(MorphSVGPlugin);
-
 
 let mainTL = gsap.timeline();
 
@@ -35,8 +33,6 @@ mainTL.add(gmcTL)
       .add(skinThreeTL)
       .add(speedTL);
     
-      
-
       mainTL.play();
 
 // GSDevTools.create();

@@ -1,11 +1,7 @@
 import { gsap } from "gsap";
-
-
-
 export let autobotTL = gsap.timeline();
 
 let autobotSpeed = 0.8;
-
 
 autobotTL.to("#gmcFull",{ duration:0.1, alpha: 0, delay:1})
          .to("#m14", {duration:autobotSpeed, morphSVG:"#auto16", fill:"#5E5B64", x:-36.5, y:-59.5},"autobot")

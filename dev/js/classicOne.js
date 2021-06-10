@@ -1,8 +1,5 @@
 import { gsap } from "gsap";
-
-
 export let classicOneTL = gsap.timeline();
-
 
 classicOneTL.to("#autobotFull",{ duration:0.1, alpha: 0, delay:1}) 
             .to("#gmcMBroke",{ duration:0.1, alpha: 0})  

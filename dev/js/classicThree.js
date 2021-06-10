@@ -1,6 +1,4 @@
 import { gsap } from "gsap";
-
-
 export let classicThreeTL = gsap.timeline();
 
 gsap.set("#activateButton",{transformOrigin:"center"});
